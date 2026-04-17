@@ -14,7 +14,7 @@
 ## 安装依赖
 
 ```bash
-cd ~/Projects/ralph
+cd /path/to/your/Projects/ralph
 pip install -r requirements.txt
 ```
 
@@ -37,7 +37,7 @@ StreamingAsr/model/
 ├── tokens.txt        # 词表
 └── vad.onnx          # Silero VAD 模型
 ```
-
+模型在[此处](https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-int8-2024-07-17.tar.bz2)出下载。
 默认从该路径加载，也可通过 `--model-dir` 指定其他路径。
 
 ## macOS 权限设置
