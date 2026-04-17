@@ -34,3 +34,11 @@ archive/
 .idea/
 *.swp
 *.swo
+flowchart/
+skills/
+tasks/
+ralph*
+AGENT*
+CLAUDE*
+prd.json*
+prompt.md
