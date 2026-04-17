@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
+.venv/
+StreamingAsr/.venv/
+
+# Models (too large for git, ~240MB)
+StreamingAsr/model/
+
+# Node (flowchart)
+node_modules/
+
+# Ralph runtime files
+prd.json
+progress.txt
+.last-branch
+ralph-run-*.log
+archive/
+
+# macOS
+.DS_Store
+
+# Claude Code
+.claude/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

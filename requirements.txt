@@ -1,0 +1,7 @@
+sherpa-onnx
+sounddevice
+numpy
+pynput
+rumps
+pyobjc-framework-Cocoa
+pyobjc-framework-Quartz
